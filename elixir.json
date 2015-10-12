@@ -1,0 +1,46 @@
+{
+    "production": false,
+    "sourcemaps": false,
+    "assetsPath": "resources",
+    "publicPath": "public",
+    "css": {
+        "outputFolder": "css",
+        "autoprefix": {
+            "enabled": true,
+            "options": {
+                "browsers": ["> 5%"],
+                "cascade": false,
+                "add": true,
+                "remove": true
+            }
+        },
+    	"less": {
+    	    "folder": "less"
+    	},
+    	"sass": {
+    	    "folder": "sass"
+    	}
+    },
+    "versioning": {
+        "buildFolder": "build"
+    },
+    "browserSync": {
+        "proxy": "cinepapaya.vh",
+        "reloadOnRestart": true,
+        "notify": false
+    },
+    "js": {
+        "folder": "js",
+        "outputFolder": "js",
+        "babel": {
+            "options": {
+                "stage": 2,
+                "compact": false
+            }
+        },
+        "coffee": {
+            "folder": "coffee",
+            "options": {}
+        }
+    }
+}

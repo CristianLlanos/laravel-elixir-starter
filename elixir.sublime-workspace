@@ -1,0 +1,769 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bower",
+				"bower_components"
+			],
+			[
+				"boo",
+				"bootstrapJs"
+			],
+			[
+				"sty",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": ":w",
+		"selected_items":
+		[
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"comm",
+				"Toggle Comment"
+			],
+			[
+				"renam",
+				"ANF: Rename File"
+			],
+			[
+				":q",
+				"PHPCompanion:Expand Fully Qualified Class Name"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"ren",
+				"ANF: Rename File"
+			],
+			[
+				"dele",
+				"ANF: Delete Current File"
+			],
+			[
+				"anfrena",
+				"ANF: Rename File"
+			],
+			[
+				"delete",
+				"ANF: Delete Current File"
+			],
+			[
+				"copy",
+				"ANF: Copy Current File"
+			],
+			[
+				"ssco",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sssas",
+				"Set Syntax: Sass"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"setting",
+				"Preferences: Settings - Default"
+			],
+			[
+				"settinuse",
+				"Preferences: Settings - User"
+			],
+			[
+				"packagremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"user",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"tasknew",
+				"Tasks: New document"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"settin",
+				"Preferences: Settings - Default"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				":ww",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"extra",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				"ta",
+				"View: Toggle Tabs"
+			],
+			[
+				"constru",
+				"PHPCompanion:Insert Constructor Property"
+			],
+			[
+				"const",
+				"PHPCompanion:Insert Constructor Property"
+			],
+			[
+				"constr",
+				"Snippet: function __construct"
+			],
+			[
+				"keyuser",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"settinuser",
+				"Preferences: Settings - User"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"got",
+				"PHPCompanion:Goto Definition Scope"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"shell",
+				"Shell Exec: Open"
+			],
+			[
+				"settuser",
+				"Preferences: Settings - User"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"folder",
+				"Project: Refresh Folders"
+			],
+			[
+				"Package Control",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"setuser",
+				"Preferences: Settings - User"
+			],
+			[
+				"setting use",
+				"Preferences: Settings - User"
+			],
+			[
+				"comme",
+				"Toggle Comment"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"comment",
+				"Toggle Comment"
+			],
+			[
+				"seting use",
+				"Preferences: Settings - User"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+			"exit",
+			"sublime.join_lines",
+			"join_lines",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/darcy/projects/node/elixir",
+		"/home/darcy/projects/node/elixir/resources",
+		"/home/darcy/projects/node/elixir/resources/less",
+		"/home/darcy/projects/node/elixir/resources/less/components",
+		"/home/darcy/projects/node/elixir/resources/sass"
+	],
+	"file_history":
+	[
+		"/home/darcy/projects/node/elixir/bower_components/bootstrap/less/mixins/buttons.less",
+		"/home/darcy/projects/node/elixir/gulpfile.js",
+		"/home/darcy/projects/node/elixir/resources/less/variables.less",
+		"/home/darcy/projects/node/elixir/bower_components/bootstrap/less/grid.less",
+		"/home/darcy/projects/node/elixir/bower_components/bootstrap/less/mixins/grid.less",
+		"/home/darcy/projects/node/elixir/elixir.json",
+		"/home/darcy/projects/node/elixir/elixir.sublime-project",
+		"/home/darcy/projects/node/elixir/node_modules/laravel-elixir/Config.js",
+		"/home/darcy/projects/node/elixir/public/css/cinepapaya.css",
+		"/home/darcy/projects/node/elixir/resources/less/cinepapaya.less",
+		"/home/darcy/projects/node/elixir/public/components.html",
+		"/home/darcy/projects/node/elixir/bower_components/bootstrap/less/buttons.less",
+		"/home/darcy/projects/node/elixir/resources/less/components/buttons.less",
+		"/home/darcy/projects/node/elixir/resources/less/buttons.less",
+		"/home/darcy/projects/x_GSDK_production_1.3/components.html",
+		"/home/darcy/projects/node/elixir/.gitignore",
+		"/home/darcy/projects/node/elixir/resources/coffee/cinepapaya.coffee",
+		"/home/darcy/projects/node/elixir/resources/coffee/main.coffee",
+		"/home/darcy/projects/node/elixir/resources/sass/cinepapaya.scss",
+		"/home/darcy/projects/node/elixir/resources/sass/build.scss",
+		"/home/darcy/projects/node/elixir/public/js/cinepapaya.js",
+		"/home/darcy/projects/node/elixir/resources/js/cinepapaya.js",
+		"/home/darcy/projects/node/elixir/resources/less/mixins.less",
+		"/home/darcy/projects/node/elixir/resources/less/cinepapaya/mixins.less",
+		"/home/darcy/projects/node/elixir/resources/less/cinepapaya/variables.less",
+		"/home/darcy/projects/node/elixir/resources/less/cinepapaya/cinepapaya.less",
+		"/home/darcy/projects/node/elixir/cinepapaya.less",
+		"/home/darcy/projects/node/elixir/resources/less/cinepapaya/toolkit.less",
+		"/home/darcy/projects/node/elixir/bower_components/bootstrap/less/mixins.less",
+		"/home/darcy/projects/node/elixir/resources/less/custom/toolkit.less",
+		"/home/darcy/projects/node/elixir/resources/less/custom/cinepapaya-variables.less",
+		"/home/darcy/projects/node/elixir/bower_components/bootstrap/less/variables.less",
+		"/home/darcy/projects/node/elixir/bower.json",
+		"/home/darcy/projects/node/elixir/public/js/main.js",
+		"/home/darcy/projects/node/elixir/resources/less/main.less",
+		"/home/darcy/projects/node/elixir/public/css/main.css",
+		"/home/darcy/projects/node/elixir/package.json",
+		"/home/darcy/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/darcy/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/darcy/.config/sublime-text-3/Packages/User/Glue.sublime-settings",
+		"/home/darcy/projects/slider/slider.js",
+		"/home/darcy/.config/sublime-text-3/Packages/User/Default (Linux).sublime-mousemap",
+		"/home/darcy/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/darcy/.config/sublime-text-3/Packages/PlainTasks/messages/Tutorial.todo",
+		"/home/darcy/.config/sublime-text-3/Packages/PlainTasks/messages/install.txt",
+		"/home/darcy/.config/sublime-text-3/Packages/Colorsublime - Themes/peacocks-in-space.tmTheme",
+		"/home/darcy/.config/sublime-text-3/Packages/Material Theme/Material-Theme.sublime-theme",
+		"/home/darcy/projects/php/ocp.php",
+		"/home/vhosts/papaya-web-cine/common/contracts/Arrayable.php",
+		"/home/vhosts/papaya-web-cine/composer.phar",
+		"/home/vhosts/papaya-web-cine/runtime/mail/20150816-205018-4037-0244.eml",
+		"/home/vhosts/papaya-web-cine/requirements.php",
+		"/home/darcy/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+		"/home/darcy/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/darcy/.config/sublime-text-3/Packages/AdvancedNewFile/Default (Linux).sublime-keymap",
+		"/home/darcy/.config/sublime-text-3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/home/darcy/.config/sublime-text-3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/home/darcy/.config/sublime-text-3/Packages/User/PHP Companion.sublime-settings",
+		"/home/darcy/.config/sublime-text-3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/home/vhosts/papaya-web-cine/vendor/yiisoft/yii2/rest/IndexAction.php",
+		"/home/vhosts/papaya-web-cine/app/layouts/layout.php",
+		"/home/vhosts/papaya-web-cine/vendor/yiisoft/yii2/web/NotFoundHttpException.php",
+		"/home/darcy/.config/sublime-text-3/Packages/Origami/Default (Linux).sublime-keymap",
+		"/home/vhosts/papaya-web-cine/common/rest/RestResponse.php",
+		"/home/vhosts/papaya-web-cine/common/rest/RestRequest.php",
+		"/home/darcy/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/darcy/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/vhosts/papaya-web-cine/vendor/yiisoft/yii2/widgets/BaseListView.php",
+		"/home/vhosts/papaya-web-cine/vendor/yiisoft/yii2/widgets/ListView.php",
+		"/home/vhosts/papaya-web-cine/app/modules/landing/views/index/theater.php",
+		"/home/vhosts/papaya-web-cine/app/assets/less/cinemark-bolivia.less",
+		"/home/darcy/My Sublime Packages.txt",
+		"/home/vhosts/papaya-web-cine/app/modules/festival/controllers/IndexController.php",
+		"/home/vhosts/papaya-web-cine/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php",
+		"/home/vhosts/papaya-web-cine/public/index.php",
+		"/home/vhosts/papaya-web-cine/app/modules/landing/controllers/IndexController.php",
+		"/home/temp/config.sh"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ct-\\w+",
+			"type=\"checkbox",
+			"tim-row",
+			"check",
+			"noti",
+			"dep",
+			"window.jQuery",
+			"jquery",
+			"('/",
+			"bootstrapJs",
+			"mixins",
+			"path",
+			"@import \"",
+			"\",",
+			"follow_symlinks",
+			"follow",
+			"tab",
+			"options",
+			"38, 50, 56",
+			"index",
+			"thumb",
+			"this",
+			"ul",
+			"div class=\"slide",
+			"1",
+			"attr",
+			"></",
+			"calculator",
+			"square",
+			"squares",
+			"width",
+			"	*/",
+			"backspace",
+			"(\\",
+			"\":\"",
+			"escape",
+			"ctrl+t",
+			"active",
+			"requestedDate",
+			"timeZone",
+			"$timeZone",
+			"festival",
+			"  ",
+			"encoding"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 70.0
+	},
+	"input":
+	{
+		"height": 68.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 192.0
+	},
+	"output.find_results":
+	{
+		"height": 162.0
+	},
+	"pinned_build_system": "Watcher",
+	"project": "elixir.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"buttons.l",
+				"resources/less/components/buttons.less"
+			],
+			[
+				"eli",
+				"elixir.json"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"",
+				"resources/less/components/buttons.less"
+			],
+			[
+				"cine.css",
+				"public/css/cinepapaya.css"
+			],
+			[
+				"resbut",
+				"resources/less/components/buttons.less"
+			],
+			[
+				"cineles",
+				"resources/less/cinepapaya.less"
+			],
+			[
+				"cin.c",
+				"public/css/cinepapaya.css"
+			],
+			[
+				"resbutt",
+				"resources/less/components/buttons.less"
+			],
+			[
+				"cine",
+				"resources/less/cinepapaya.less"
+			],
+			[
+				"comp",
+				"public/components.html"
+			],
+			[
+				"botsbutt",
+				"bower_components/bootstrap/less/buttons.less"
+			],
+			[
+				"bootsmixbut",
+				"bower_components/bootstrap/less/mixins/buttons.less"
+			],
+			[
+				"botbuttonl",
+				"bower_components/bootstrap/less/buttons.less"
+			],
+			[
+				"rescine",
+				"resources/less/cinepapaya.less"
+			],
+			[
+				"buttons",
+				"bower_components/bootstrap/less/buttons.less"
+			],
+			[
+				"compo",
+				"public/components.html"
+			],
+			[
+				"mixgrid",
+				"bower_components/bootstrap/less/mixins/grid.less"
+			],
+			[
+				"grid",
+				"bower_components/bootstrap/less/grid.less"
+			],
+			[
+				"resvar",
+				"resources/less/variables.less"
+			],
+			[
+				"subl",
+				"elixir.sublime-project"
+			],
+			[
+				"resvari",
+				"resources/less/variables.less"
+			],
+			[
+				"resvaria",
+				"resources/less/variables.less"
+			],
+			[
+				"gulpf",
+				"gulpfile.js"
+			],
+			[
+				"config",
+				"node_modules/laravel-elixir/Config.js"
+			],
+			[
+				"subl-",
+				"elixir.sublime-project"
+			],
+			[
+				"elij",
+				"elixir.json"
+			],
+			[
+				"reva",
+				"resources/less/variables.less"
+			],
+			[
+				"e",
+				"elixir.json"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"vari",
+				"resources/less/variables.less"
+			],
+			[
+				"elijo",
+				"elixir.json"
+			],
+			[
+				"variabl",
+				"resources/less/variables.less"
+			],
+			[
+				"elijs",
+				"elixir.json"
+			],
+			[
+				"lessvaria",
+				"resources/less/variables.less"
+			],
+			[
+				"cinmi",
+				"resources/less/cinepapaya/mixins.less"
+			],
+			[
+				"mi",
+				"bower_components/bootstrap/less/mixins.less"
+			],
+			[
+				"variable",
+				"bower_components/bootstrap/less/variables.less"
+			],
+			[
+				"main.js",
+				"public/js/main.js"
+			],
+			[
+				"mainco",
+				"resources/coffee/main.coffee"
+			],
+			[
+				"el",
+				"elixir.json"
+			],
+			[
+				"elic",
+				"elixir.sublime-project"
+			],
+			[
+				"mainc",
+				"public/css/main.css"
+			],
+			[
+				"sub",
+				"elixir.sublime-project"
+			],
+			[
+				"main",
+				"resources/less/main.less"
+			],
+			[
+				"subli",
+				"elixir.sublime-project"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"slidejs",
+				"slider.js"
+			],
+			[
+				"see",
+				"~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+			],
+			[
+				"slid",
+				"slider.js"
+			],
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"lay",
+				"app/layouts/layout.php"
+			],
+			[
+				"indexon",
+				"app/modules/festival/controllers/IndexController.php"
+			],
+			[
+				"baselist",
+				"vendor/yiisoft/yii2/widgets/BaseListView.php"
+			],
+			[
+				"listview",
+				"vendor/yiisoft/yii2/widgets/ListView.php"
+			],
+			[
+				"landinindexthe",
+				"app/modules/landing/views/index/theater.php"
+			],
+			[
+				"bolivi.less",
+				"app/assets/less/cinemark-bolivia.less"
+			],
+			[
+				"indexcon",
+				"app/modules/festival/controllers/IndexController.php"
+			],
+			[
+				"inde",
+				"public/index.php"
+			],
+			[
+				"indxcontro",
+				"app/modules/landing/controllers/IndexController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/projects/node/elixir/elixir.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 177.0,
+		"last_filter": "indexAction",
+		"selected_items":
+		[
+			[
+				"indexAction",
+				"IndexAction"
+			],
+			[
+				"index",
+				"index"
+			],
+			[
+				"actionsingle",
+				"actionSingle"
+			],
+			[
+				"actionnews",
+				"actionNews"
+			],
+			[
+				"actionnew",
+				"actionNew"
+			]
+		],
+		"width": 692.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

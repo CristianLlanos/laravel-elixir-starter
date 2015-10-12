@@ -1,0 +1,23 @@
+{
+  "name": "elixir",
+  "version": "1.0.0",
+  "authors": [
+    "Cristian Llanos <cristianllanos@outlook.com>"
+  ],
+  "description": "Laravel Elixir assest arquitecture",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "laravel-elixir",
+    "arquitecture"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0",
+    "prism": "~1.2.0"
+  }
+}
