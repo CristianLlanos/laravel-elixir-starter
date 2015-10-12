@@ -40,8 +40,16 @@
 			"shell_cmd": "gulp"
 		},
 		{
+			"name": "Elixir Production",
+			"shell_cmd": "gulp --production"
+		},
+		{
 			"name": "Elixir Watcher",
 			"shell_cmd": "gulp watch"
+		},
+		{
+			"name": "Elixir Watcher Production",
+			"shell_cmd": "gulp watch --production"
 		}
 	]
 }

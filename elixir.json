@@ -1,6 +1,4 @@
 {
-    "production": false,
-    "sourcemaps": false,
     "assetsPath": "resources",
     "publicPath": "public",
     "css": {

@@ -4,7 +4,7 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
 	mix
-		.less('app.less')
+		.less('app.less', 'public/css/app.min.css')
 		.scripts($.scripts({
 			jQuery: true,
 			bootstrap: [
@@ -35,7 +35,7 @@ elixir(function(mix) {
 			assets: [
 				'app.js'
 			]
-		}), 'public/js/app.js');
+		}), 'public/js/app.min.js');
 	mix.copy($.bower('bootstrap/fonts', true), 'public/fonts')
 	mix.copy($.bower('font-awesome/fonts', true), 'public/fonts')
 	// 	.browserSync()
