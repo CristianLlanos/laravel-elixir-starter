@@ -1,9 +1,15 @@
-var App = module.exports = {};
+var elixir = require('laravel-elixir');
+var _ = require('underscore');
 
-App.bower = function(files, root) {
+var config = elixir.config;
+
+var $ = module.exports = {};
+
+$.bower = function(files, root) {
 	root = root || false;
-	var folder = 'bower_components/';
-	if ( ! root) folder = '../../' + folder;
+	var folder = '';
+	if ( ! root) folder = '../../';
+	folder += 'bower_components/';
 	// Relative to resources/js folder
 	if (typeof files == "string")
 		return folder + files;
@@ -12,7 +18,7 @@ App.bower = function(files, root) {
 	});
 };
 
-App.jQuery = function(config, Bower) {
+$.jQuery = function(config, Bower) {
 	return {
 		scripts: function() {
 			return ['jquery/dist/jquery.js'];
@@ -20,7 +26,7 @@ App.jQuery = function(config, Bower) {
 	};
 };
 
-App.bootstrap = function(config, Bower) {
+$.bootstrap = function(config, Bower) {
 	return {
 		scripts: function() {
 			return [].concat(config).map(function(script) {
@@ -30,7 +36,7 @@ App.bootstrap = function(config, Bower) {
 	};
 };
 
-App.prism = function(options, Bower) {
+$.prism = function(options, Bower) {
 	return {
 		scripts: function() {
 			var components = ['core']
@@ -51,12 +57,40 @@ App.prism = function(options, Bower) {
 	}
 };
 
-App.scripts = function(options) {
+$.please = function(mix) {
+	$.mix = mix;
+	return $;
+};
+
+$.scripts = function(options, toPath) {
 	var files = [];
 
-	if (options.jQuery) files = files.concat(App.jQuery(options.jQuery).scripts());
-	if (options.bootstrap) files = files.concat(App.bootstrap(options.bootstrap).scripts());
-	if (options.prism) files = files.concat(App.prism(options.prism).scripts());
+	if (options.jQuery) files = files.concat($.jQuery(options.jQuery).scripts());
+	if (options.bootstrap) files = files.concat($.bootstrap(options.bootstrap).scripts());
+	if (options.prism) files = files.concat($.prism(options.prism).scripts());
 
-	return App.bower(files).concat(options.assets || []);
+	$.mix.scripts($.bower(files).concat(options.assets || []), toPath);
+	return $;
+};
+
+$.copy = function(from, to) {
+	$.mix.copy($.bower(from, true), to);
+	return $;
+};
+
+$.browserSync = function(options) {
+	var conf = _.extend(config.browserSync, {
+			files: [
+				config.appPath + '/**/*.php',
+			    config.publicPath + '/*.html',
+			    config.get('public.css.outputFolder') + '/**/*.css',
+			    config.get('public.js.outputFolder') + '/**/*.js',
+			    config.get('public.versioning.buildFolder') + '/rev-manifest.json'
+			],
+			watchOptions: {
+			    usePolling: true
+			}
+		}, options);
+    $.mix.browserSync(conf);
+	return $;
 };

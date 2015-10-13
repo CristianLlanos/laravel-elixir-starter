@@ -3,9 +3,9 @@ var $ = require('./app');
 var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
-	mix
-		.less('app.less', 'public/css/app.min.css')
-		.scripts($.scripts({
+	mix.less('app.less', 'public/css/app.min.css')
+	$.please(mix)
+		.scripts({
 			jQuery: true,
 			bootstrap: [
 				'affix',
@@ -29,15 +29,14 @@ elixir(function(mix) {
 					'javascript'
 				],
 				plugins: [
-					'autoloader'
+					// 'autoloader'
 				]
 			},
 			assets: [
 				'app.js'
 			]
-		}), 'public/js/app.min.js');
-	mix.copy($.bower('bootstrap/fonts', true), 'public/fonts')
-	mix.copy($.bower('font-awesome/fonts', true), 'public/fonts')
-	// 	.browserSync()
+		}, 'public/js/app.min.js')
+		.copy('bootstrap/fonts', 'public/fonts')
+		.copy('font-awesome/fonts', 'public/fonts')
+		.browserSync({ proxy: 'localhost:8000' })
 });
-
