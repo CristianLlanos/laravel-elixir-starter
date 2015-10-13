@@ -2,6 +2,8 @@
 var $ = require('./app');
 var elixir = require('laravel-elixir');
 
+elixir.config.sourcemaps = !elixir.config.production;
+
 elixir(function(mix) {
 	mix.less('app.less', 'public/css/app.min.css')
 	$.please(mix)
