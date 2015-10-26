@@ -1,0 +1,27 @@
+@import "../../@{bootstrap}/responsive-utilities.less";
+
+//
+// Create all combinations for text responsive. You can call this mixin
+// from the root of your css so items are available everywhere
+//
+// Add text-(a)-(b) classes: (a:center,left,right,justify) (b:xs,sm,md,lg)
+//-----------------------------------------------------------------------------
+.text-center-xs { text-align:center; }
+.text-left-xs { text-align:left; }
+.text-right-xs { text-align:right; }
+.text-justify-xs { text-align:justify; }
+
+.text-center-sm { @media (min-width: @screen-sm-min) { text-align:center; } }
+.text-left-sm { @media (min-width: @screen-sm-min) { text-align:left; } }
+.text-right-sm { @media (min-width: @screen-sm-min) { text-align:right; } }
+.text-justify-sm { @media (min-width: @screen-sm-min) { text-align:justify; } }
+
+.text-center-md { @media (min-width: @screen-md-min) { text-align:center; } }
+.text-left-md { @media (min-width: @screen-md-min) { text-align:left; } }
+.text-right-md { @media (min-width: @screen-md-min) { text-align:right; } }
+.text-justify-md { @media (min-width: @screen-md-min) { text-align:justify; } }
+
+.text-center-lg { @media (min-width: @screen-lg-min) { text-align:center; } }
+.text-left-lg { @media (min-width: @screen-lg-min) { text-align:left; } }
+.text-right-lg { @media (min-width: @screen-lg-min) { text-align:right; } }
+.text-justify-lg { @media (min-width: @screen-lg-min) { text-align:justify; } }
