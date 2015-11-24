@@ -15,7 +15,7 @@ elixir(function(mix) {
 		 | [assetsPath.css.less.folder].
 		 |
 		 */
-		.less('app.less')
+		.sass('app.scss')
 
 		/*
 		 |---------------------------------------------------------------------
@@ -48,40 +48,16 @@ elixir(function(mix) {
 			 */
 			, '../bower/bootstrap/js/affix.js'
 			, '../bower/bootstrap/js/alert.js'
-			, '../bower/bootstrap/js/button.js'
-			, '../bower/bootstrap/js/carousel.js'
-			, '../bower/bootstrap/js/collapse.js'
-			, '../bower/bootstrap/js/dropdown.js'
-			, '../bower/bootstrap/js/modal.js'
-			, '../bower/bootstrap/js/tooltip.js'
-			, '../bower/bootstrap/js/popover.js'
-			, '../bower/bootstrap/js/scrollspy.js'
-			, '../bower/bootstrap/js/tab.js'
-			, '../bower/bootstrap/js/transition.js'
-
-			/*
-			 |-----------------------------------------------------------------
-			 | Prism
-			 |-----------------------------------------------------------------
-			 |
-			 | Sintax highlighter plugin.
-			 |
-			 */
-			, '../bower/prism/components/prism-core.js'
-			, '../bower/prism/components/prism-markup.js'
-			, '../bower/prism/components/prism-css.js'
-			, '../bower/prism/components/prism-clike.js'
-			, '../bower/prism/components/prism-javascript.js'
-			
-			/*
-			 |-----------------------------------------------------------------
-			 | Scripts
-			 |-----------------------------------------------------------------
-			 |
-			 | Scripts inside [assetsPath.js.folder].
-			 |
-			 */
-			, 'highlighter.js'
+			// , '../bower/bootstrap/js/button.js'
+			// , '../bower/bootstrap/js/carousel.js'
+			// , '../bower/bootstrap/js/collapse.js'
+			// , '../bower/bootstrap/js/dropdown.js'
+			// , '../bower/bootstrap/js/modal.js'
+			// , '../bower/bootstrap/js/tooltip.js'
+			// , '../bower/bootstrap/js/popover.js'
+			// , '../bower/bootstrap/js/scrollspy.js'
+			// , '../bower/bootstrap/js/tab.js'
+			// , '../bower/bootstrap/js/transition.js'
 			, 'app.js'
 		]
 
