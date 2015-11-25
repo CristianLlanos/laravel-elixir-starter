@@ -2,6 +2,7 @@
     "appPath": "app",
     "assetsPath": "resources",
     "publicPath": "public",
+    "sourcemaps": true,
     "css": {
         "outputFolder": "css",
         "autoprefix": {

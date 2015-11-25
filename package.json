@@ -5,7 +5,7 @@
     "gulp": "^3.8.8"
   },
   "dependencies": {
-    "laravel-elixir": "^3.4.1",
+    "laravel-elixir": "^4.0.4",
     "underscore": "^1.8.3",
     "underscore-deep-extend": "0.0.5"
   }
